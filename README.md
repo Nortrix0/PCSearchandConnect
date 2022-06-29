@@ -4,7 +4,7 @@ This application was made specifically for City of Gulfport IT employees in orde
 
 This java application also uses the JPowershell dependancy to make this possible. Thank you ProfessorFalken!
 
-UPDATE: Currently this program has a bug. If there is no description for one of the PCs in Active Directory in your search results, the application will crash. This bug is currently being worked on & will be fixed in 1.05 
+UPDATE: Currently this program has a bug. If there is no description for one of the PCs in Active Directory in your search results, that search result will not show. Working on a fix for this now.
 
 
     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ▄▀▄     ▄▀▄ ░░░░░░░░░
