@@ -21,6 +21,7 @@ import com.profesorfalken.jpowershell.PowerShellNotAvailableException;
 import com.profesorfalken.jpowershell.PowerShellResponse;
 import java.io.*;
 import java.util.ArrayList;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class Solution
@@ -160,8 +161,16 @@ public class Solution
 
         while (nameOutput.hasNextLine())
         {
-            Computer PC = new Computer(nameOutput.nextLine(), descriptionOutput.next());
-            allPCs.add(PC);
+            try
+            {
+                Computer PC = new Computer(nameOutput.nextLine(), descriptionOutput.next());
+                allPCs.add(PC);
+            }
+            catch (NoSuchElementException e)
+            {
+                System.out.println("\tSome of the search results are missing due to lack of description.");
+            }
+
         }
     }
 
