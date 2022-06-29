@@ -4,10 +4,10 @@ This application was made specifically for City of Gulfport IT employees in orde
 
 This java application also uses the JPowershell dependancy to make this possible. Thank you ProfessorFalken!
 
-					                     ▄▀▄     ▄▀▄ 
-    █▀▀ █ █▄▄ █▄▄ █▄█ █ █▀		        ▄█░░▀▀▀▀▀░░█▄ 
+					     ▄▀▄     ▄▀▄ 
+    █▀▀ █ █▄▄ █▄▄ █▄█ █ █▀		    ▄█░░▀▀▀▀▀░░█▄ 
     █▄█ █ █▄█ █▄█  █    ▄█	        ▄▄  █░░░░░░░░░░░█  ▄▄ 
-				                   █▄▄█ █░░▀░░┬░░▀░░█ █▄▄█ 
+				       █▄▄█ █░░▀░░┬░░▀░░█ █▄▄█ 
 ██████╗  █████╗    ██████╗███████╗ █████╗ ██████╗░░█████╗ ██╗  ██╗
 ██╔══██╗██╔══██╗  ██╔════╝██╔════╝██╔══██╗██╔══██╗██╔══██╗██║  ██║
 ██████╔╝██║  ╚═╝  ╚█████╗ █████╗  ███████║██████╔╝██║  ╚═╝███████║
@@ -23,6 +23,7 @@ This java application also uses the JPowershell dependancy to make this possible
  ▓█░░▄░░▄░░░█▓ █████  █ █ █▀▀ █▀█ █▀ █ █▀█ █▄ █   ▄█   █▀█ █ █
  ▓█▄▄▄▄▄▄▄▄▄█▓ █▄▄▄█  ▀▄▀ ██▄ █▀▄ ▄█ █ █▄█ █ ▀█    █ ▄ █▄█ ▀▀█
     ▄▄███▄▄    █████
+
     ******************************************************************
     *                                                                *
     *           ACTIVE DIRECTORY PC SEARCH & CONNECT                 *
