@@ -154,7 +154,7 @@ public class Solution
         PowerShellResponse nameResponse = powerShell.executeCommand(nameSearch);
         System.out.print(".");
         PowerShellResponse descriptionResponse = powerShell.executeCommand(descriptionSearch);
-        System.out.print(".");
+        System.out.print(".\n");
 
         Scanner nameOutput = new Scanner(nameResponse.getCommandOutput());
         Scanner descriptionOutput = new Scanner(descriptionResponse.getCommandOutput());
@@ -168,7 +168,7 @@ public class Solution
             }
             catch (NoSuchElementException e)
             {
-                System.out.println("\tSome of the search results are missing due to lack of description.");
+                System.out.println("\tThis search result is missing due to lack of description.");
             }
 
         }
